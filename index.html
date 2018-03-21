@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Richard Shu</title>
+
+		<!-- Metadata
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<meta charset="UTF-8">
+		<meta name="author" content="Richard Shu">
+		<meta name="keywords" content="Richard, Shu, student, portfolio">
+		<meta name="description" content="Personal Website for Richard Shu">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- CSS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<!-- Google Fonts -->
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amaranth">
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="css/animate.css"/>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css"/>
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="css/fontawesome.css"/>
+		<!-- Styling -->
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<div id="header"></div>
+		<section class="container-fluid">
+			<h2 class="text-center">Student leader, writer, aspiring entrepreneur</h2>
+			<img id="profile-pic" class="img-responsive animated fadeIn" src="images/profile-pic.jpg">
+			<div class="divider"><hr></div>
+			<h2 class="text-center">About Me</h2>
+			<p>
+				<h4 class="center">
+					I'm a 3rd-year student majoring in Computer Science at Cal State LA. I was admitted 
+					via the Early Entrance Program at the tender age of 14. In my free time, I love to 
+					program, play chess, and learn Chinese. If you want to connect with me, hit me up on 
+					<a href="https://www.linkedin.com/in/richardjshu/" target="_blank">LinkedIn</a>!
+				</h4>
+			</p>
+			<div class="divider"><hr></div>
+			<h2 class="text-center">Hobbies</h2>
+			<a target="_blank" href="http://www.uschess.org/msa/MbrDtlMain.php?14612952">
+				<h4 class="text-center">Chess</h4>
+			</a>
+			<a target="_blank" href="http://magnificentsevens.org/">
+				<h4 class="text-center">Boy Scouts</h4>
+			</a>
+			<a target="_blank" href="https://asicalstatela.org/position/college-engineering-computer-science-and-technology-representative">
+				<h4 class="text-center">Student gov.</h4>
+			</a>
+			<a target="_blank" href="https://www.quora.com/profile/Richard-Shu-7">
+				<h4 class="text-center">Quora</h4>
+			</a>
+		</section>
+		<div id="footer"></div>
+
+		<!-- JavaScript
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110810815-1"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+  			gtag('config', 'UA-110810815-1');
+		</script>
+
+		<!-- jQuery: This is to import the header and footer -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(function(){
+				$('#header').load('header.html');
+				$('#footer').load('footer.html');
+			});
+		</script>
+	</body>
+</html>

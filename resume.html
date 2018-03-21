@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Richard Shu</title>
+
+		<!-- Metadata
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<meta charset="UTF-8">
+		<meta name="author" content="Richard Shu">
+		<meta name="keywords" content="Richard, Shu, student, portfolio">
+		<meta name="description" content="Personal Website for Richard Shu">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- CSS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<!-- Google Fonts -->
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amaranth">
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="css/animate.css"/>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css"/>
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="css/fontawesome.css"/>
+		<!-- Styling -->
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<div id="header"></div>
+		<section class="container-fluid text-center animated fadeIn">
+			<!-- TIP: Use https://pdfresizer.com/convert to convert a PDF to PNG -->
+			<img id="resume-pic" class="img-responsive" src="images/resume.png"><br>
+			<a id="download-button" class="btn btn-primary" href="https://goo.gl/UUDHvq" target="_blank">Download</a>
+		</section>
+		<div id="footer"></div>
+
+		<!-- JavaScript
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110810815-1"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+  			gtag('config', 'UA-110810815-1');
+		</script>
+
+		<!-- jQuery: This is to import the header and footer -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(function(){
+				$('#header').load('header.html');
+				$('#footer').load('footer.html');
+			});
+		</script>
+	</body>
+</html>

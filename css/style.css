@@ -1,0 +1,163 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: Amaranth;
+}
+
+hr {
+	display: block;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background: #dcdcdc;
+	box-shadow: 30px 0 #dcdcdc, -30px 0 #dcdcdc;
+	border-color: #dcdcdc;
+}
+
+.divider {
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+/* Header
+--------------------------------------------- */
+#title {
+	font-size: 400%;
+	font-weight: bold;
+}
+
+nav ul {
+	padding-left: 0; /* Reset the default padding to the unordered list */
+}
+
+nav ul li {
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+nav ul li:hover {
+	color: #000000;
+}
+
+nav ul li a {
+	color: gray;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Project Block
+--------------------------------------------- */
+.project-block {
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 15px;
+	-webkit-animation-duration: 3s;
+}
+
+.project-block a {
+	color: grey;
+}
+
+.project-block a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Footer
+--------------------------------------------- */
+footer {
+	background-color: #7fffd4;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
+
+/* Social media
+--------------------------------------------- */
+.icon {
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	border-radius: 50%;
+	color: #ffffff;
+	background-color: gray;
+	display: inline-block;
+	border: 2px solid #ffffff;
+}
+
+.icon:hover {
+	color: #ffffff;
+	background-color: #000000;
+}
+
+
+/* About section
+--------------------------------------------- */
+#profile-pic {
+	max-width: 600px;
+	margin: auto;
+	display: block;
+	border-radius: 5px;
+	-webkit-animation-duration: 3s;
+}
+
+.center {
+	margin: auto;
+	display: block;
+	width: 50%;
+}
+
+/* Portfolio section
+--------------------------------------------- */
+.project-image {
+	width: 600px;
+	margin: auto;
+	display: block;
+	border-radius: 10px;
+}
+
+/* Contact section
+--------------------------------------------- */
+.email {
+	color: #fd5c63;
+	font-weight: bold;
+}
+
+input, textarea {
+	font-family: Amaranth;
+	font-size: 25px;
+	padding: 10px;
+	width: 100%;
+}
+
+#submit-button {
+	font-family: Amaranth;
+	background-color: gray;
+	border-color: gray;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+/* Resume section
+--------------------------------------------- */
+#resume-pic {
+	max-width: 750px;
+	margin: auto;
+	-webkit-animation-duration: 3s;
+}
+
+#download-button {
+	font-family: Amaranth;
+	background-color: gray;
+	border-color: gray;
+	margin-bottom: 35px;
+}

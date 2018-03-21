@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Richard Shu</title>
+		
+		<!-- Metadata
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<meta charset="UTF-8">
+		<meta name="author" content="Richard Shu">
+		<meta name="keywords" content="Richard, Shu, student, portfolio">
+		<meta name="description" content="Personal Website for Richard Shu">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- CSS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<!-- Google Fonts -->
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amaranth">
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="css/animate.css"/>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css"/>
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="css/fontawesome.css"/>
+		<!-- Styling -->
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<div id="header"></div>
+		<section class="container-fluid">
+			<h2 class="text-center">Email:</h2>
+			<h2 class="text-center email">richardjshu@gmail.com</h2>
+			<div class="divider"><hr></div>
+
+			<!-- Contact form -->
+			<h2 class="text-center">Contact Form</h2>
+			<form action="contactform.php" method="post" class="center">
+				<input type="name" name="name" placeholder="Name"><br/><br/>
+				<input type="email" name="email" placeholder="Email"><br/><br/>
+				<textarea name="message" placeholder="Message"></textarea>
+				<button type="submit" id="submit-button" class="btn btn-primary">Submit</button>
+			</form>
+		</section>
+		<div id="footer"></div>
+
+		<!-- JavaScript
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110810815-1"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+  			gtag('config', 'UA-110810815-1');
+		</script>
+
+		<!-- jQuery: This is to import the header and footer -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(function(){
+				$('#header').load('header.html');
+				$('#footer').load('footer.html');
+			});
+		</script>
+	</body>
+</html>
