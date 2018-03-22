@@ -161,3 +161,8 @@ input, textarea {
 	border-color: gray;
 	margin-bottom: 35px;
 }
+
+#download-button:hover {
+	border-color: #000000;
+	background-color: #000000;
+}
