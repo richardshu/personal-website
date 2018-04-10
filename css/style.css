@@ -147,6 +147,11 @@ input, textarea {
 	display: block;
 }
 
+#submit-button:hover {
+	border-color: #000000;
+	background-color: #000000;
+}
+
 /* Resume section
 --------------------------------------------- */
 #resume-pic {
